@@ -16,14 +16,32 @@
        margin-left: 50px;
        margin-top: 50px;
       }
+
+      #red {
+        background-color: red;
+      }
+
+      #blue {
+        background-color: blue;
+      }
+
+      .parent {
+        width: 350px;
+        height: 200px
+      }
     </style>
   </head>
 
   <body>
-    
-    <div class="box"></div>
-    <div class="box"></div>
+    <div class="parent" id="red">
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
    
+    <div class="parent" id="blue">
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
   </body>
 
 </html>
